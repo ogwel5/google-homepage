@@ -5,18 +5,38 @@
 </head>
 <body>
   <div class="navbar">
-    <ul>
     <div class="barleft>"
-      <li><a href="#">About</a></li>
-      <li><a href="#">Store</a></li>
+      <a href="#">About</a>
+      <a href="#">Store</a>
     </div>
     <div class="barright">
-      <li><a href="#">Gmail</a></li>
-      <li><a href="#">Images</a><li>
-      <li><img src="document/images.png" href="#"></li>
-      <li><button>sign in</button></li>
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <img src="documents/images.png">
+      <button>sign in</button>
     </div>
-    </ul>
+  </div>
+
+  <div class="search">
+    <img src="documents/logo.jpg"><br>
+    <div class="text">
+      <input type="text"></input><br>
+    </div>
+    <div class="Button">
+      <button>google search</button>
+      <button>i'm Feeling Lucky</button>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-left">
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+    </div>
+    <div class="footer-right">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </div>
   </div>
 </body>
 </html>
