@@ -2,41 +2,43 @@
 <html>
 <head>
   <title>google-homepage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <div class="barleft>"
-      <a href="#">About</a>
-      <a href="#">Store</a>
-    </div>
-    <div class="barright">
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <img src="documents/images.png">
-      <button>sign in</button>
-    </div>
-  </div>
+  <header>
+    <ul class="head-nav">
+       <li class="left">
+           <a href="#" class="opacity">About</a>
+           <a href="#" class="opacity">Store</a>
+       </li>
+       <li class="right">
+           <a href="#" class="opacity">Gmail</a>
+           <a href="#" class="opacity">Images</a>
+           <a href="#"><img src="images/ic_apps_black_18px.svg"></a>
+       </li>
+    </ul>
+</header>
 
   <div class="search">
-    <img src="documents/logo.jpg"><br>
-    <div class="text">
-      <input type="text"></input><br>
+    <img src="images/new-google-logo-png.png" width="500px" height="200px"><br>
+      <div class="text">
+        <input class="input" type="text"></input><br>
+      </div>
+      <div class="Button">
+        <button>google search</button>
+        <button>i'm Feeling Lucky</button>
+      </div>
     </div>
-    <div class="Button">
-      <button>google search</button>
-      <button>i'm Feeling Lucky</button>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footer-left">
+  <ul class="footer">
+    <li class="footerleft">
       <a href="#">Advertising</a>
       <a href="#">Business</a>
-    </div>
-    <div class="footer-right">
+    </li>
+    <li class="footerright">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
       <a href="#">Settings</a>
-    </div>
-  </div>
+    </li>
+  </ul>
 </body>
 </html>
